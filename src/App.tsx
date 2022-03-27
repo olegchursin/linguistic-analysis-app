@@ -1,9 +1,11 @@
 import './App.css';
 
+import Dictionary from './components/Dictionary';
+
 function App() {
   return (
     <div className="App">
-      <h1>linguistic-analysis-app</h1>
+      <Dictionary />
     </div>
   );
 }
