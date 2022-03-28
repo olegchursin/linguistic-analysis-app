@@ -13,7 +13,7 @@ const Navbar = () => {
             <a>
               Parent
               <svg
-                className="fill-current"
+                className="fill-urrent"
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
                 height="20"
@@ -35,6 +35,7 @@ const Navbar = () => {
             <a>Item 3</a>
           </li>
         </ul>
+
         <label className="swap swap-rotate">
           <input type="checkbox" />
 
