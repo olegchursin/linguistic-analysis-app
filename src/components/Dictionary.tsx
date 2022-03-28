@@ -37,10 +37,21 @@ const Dictionary = () => {
   return (
     <div className="container">
       <h1>Dictionary</h1>
-      <form action="">
-        <input value={searchTerm} onChange={handleInput}></input>
+      <form>
+        <input
+          type="text"
+          placeholder="Type here"
+          className="input input-bordered w-full max-w-xs"
+          value={searchTerm}
+          onChange={handleInput}
+        ></input>
 
-        <button type="submit" disabled={!searchTerm} onClick={() => refetch()}>
+        <button
+          className="btn btn-outline"
+          type="submit"
+          disabled={!searchTerm}
+          onClick={() => refetch()}
+        >
           Define
         </button>
       </form>
