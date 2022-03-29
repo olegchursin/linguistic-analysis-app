@@ -1,3 +1,13 @@
+import { Link } from '@tanstack/react-location';
+
+function getActiveProps() {
+  return {
+    style: {
+      fontWeight: 'bold'
+    }
+  };
+}
+
 const Navbar = () => {
   return (
     <div className="navbar bg-base-100">
@@ -7,13 +17,28 @@ const Navbar = () => {
       <div className="flex-none">
         <ul className="menu menu-horizontal p-0">
           <li>
-            <a>Item 1</a>
+            <Link
+              to="/"
+              getActiveProps={getActiveProps}
+              activeOptions={{ exact: true }}
+            >
+              About
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="dictionary"
+              getActiveProps={getActiveProps}
+              activeOptions={{ exact: true }}
+            >
+              Dictionary
+            </Link>
           </li>
           <li tabIndex={0}>
             <a>
-              Parent
+              Dictionary
               <svg
-                className="fill-urrent"
+                className="fill-current"
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
                 height="20"
@@ -24,10 +49,10 @@ const Navbar = () => {
             </a>
             <ul className="p-2 bg-base-100">
               <li>
-                <a>Submenu 1</a>
+                <a>Definition</a>
               </li>
               <li>
-                <a>Submenu 2</a>
+                <a>Thesaurus</a>
               </li>
             </ul>
           </li>
