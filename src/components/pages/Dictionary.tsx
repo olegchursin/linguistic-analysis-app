@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { useQuery } from 'react-query';
 
-import { fetchDefinition } from '../api/api';
-import Definition from './Definition';
-import Thesaurus from './Thesaurus';
+import { fetchDefinition } from '../../api/api';
+import Definition from '../organisms/Definition';
+import Thesaurus from '../organisms/Thesaurus';
 
 const Dictionary = () => {
   const [searchTerm, setSearchTerm] = useState('');

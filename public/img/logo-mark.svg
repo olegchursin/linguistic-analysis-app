@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 284.74 261.86">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#New_Gradient_Swatch_6);
+      }
+    </style>
+    <linearGradient id="New_Gradient_Swatch_6" y1="130.93" x2="284.74" y2="130.93" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#88eebe" />
+      <stop offset="1" stop-color="#17abfe" />
+    </linearGradient>
+  </defs>
+  <title>logo-mark</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <path class="cls-1" d="M96.78,261.86c-16.5,0-36.75-11.7-45-26l-45.59-79c-8.25-14.29-8.25-37.67,0-52L51.78,26C60,11.69,80.28,0,96.78,0H188c16.5,0,36.75,11.69,45,26l45.59,79c8.25,14.29,8.25,37.67,0,52l-45.59,79c-8.25,14.29-28.5,26-45,26Z" />
+    </g>
+  </g>
+</svg>

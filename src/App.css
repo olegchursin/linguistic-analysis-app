@@ -1,0 +1,21 @@
+.hero {
+  background: linear-gradient(
+    90deg,
+    rgba(24, 0, 53, 1) 0%,
+    rgba(121, 9, 108, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.cls-1 {
+  fill: url(#New_Gradient_Swatch_6);
+}
+.cls-2 {
+  fill: #fcfcfd;
+}
+.cls-3 {
+  fill: #fff;
+}
+.cls-4 {
+  fill: url(#New_Gradient_Swatch_6-2);
+}
